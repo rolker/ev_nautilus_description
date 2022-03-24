@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ev_nautilus_description</name>
+  <version>0.0.0</version>
+  <description>
+    URDF model of Exploration Vessel Nautilus.
+  </description>
+
+  <author email="roland@ccom.unh.edu">Roland Arsenault</author>
+  <maintainer email="roland@ccom.unh.edu">Roland Arsenault</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>xacro</depend>
+
+</package>
