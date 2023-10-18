@@ -6,8 +6,10 @@
   <link name="${namespace}/base_link">
     <visual>
         <geometry>
-            <mesh filename="package://ev_nautilus_description/models/meshes/nautilus.dae"/>
+            <mesh filename="package://ev_nautilus_description/models/meshes/nautilus.dae" scale="10 10 10"/>
         </geometry>
+        <!-- <origin rpy="0 0 -1.57075" xyz="-33.657 0.067 -2.628"/> -->
+        <origin rpy="0 0 -1.57075" xyz="-34.383 0.359 -0.013"/>
     </visual>
   </link>
 </robot>
